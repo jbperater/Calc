@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<center>
+		<h1>Basic Calculator</h1>
+		<form name="Calculator">
+			<input type="text" name="display" value="" style="text-align: right;">
+			<input type="button" name="" value="AC" onclick="Calculator.display.value = ' '">
+			<br>
+			<input type="button" name="" value="9" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="8" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="7" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="D" onclick="backErase()">
+			<br>
+			<input type="button" name="" value="6" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="5" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="4" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="." onclick="dot()"  >
+			<br>
+			<input type="button" name="" value="3" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="2" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="1" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="/" onclick="Calculator.display.value += value">
+			<br>
+			<input type="button" name="" value="+" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="-" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="*" onclick="Calculator.display.value += value"  >
+			<input type="button" name="" value="=" onclick="answer()">
+			<br>
+			
+			
+			
+			
+		</form>
+	</center>
+	<script type="text/javascript" src="javani.js"></script>
+</body>
+</html>
